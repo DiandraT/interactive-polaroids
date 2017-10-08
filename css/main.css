@@ -14,6 +14,7 @@ html {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 
   position: absolute;
+  transition: all 1s linear;
 }
 
 .polaroid > img {
@@ -38,4 +39,11 @@ html {
   z-index: 3;
   left: 20em;
   top: 10em;
+}
+
+.polaroid:nth-child(3) {
+  transform: rotate(30deg);
+  left: 25em;
+  top: 5em;
+  z-index: 2;
 }
