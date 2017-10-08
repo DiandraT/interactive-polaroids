@@ -47,3 +47,9 @@ html {
   top: 5em;
   z-index: 2;
 }
+
+.polaroid:hover {
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.8);
+  transform: rotate(0deg);
+  z-index: 4;
+}
